@@ -1,0 +1,201 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "19.2.5"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "Alfi Shahor",
+  "pagegap": 1,
+  "pagewidth": 1200,
+  "time": true,
+  "main": true,
+  "dateformat": "eu",
+  "background_blur": 0,
+  "background_bright": 1,
+  "background_type": "unsplash",
+  "quicklinks": true,
+  "textShadow": 0.925,
+  "announcements": "major",
+  "review": -1,
+  "css": "#interface #time #time-container #digital {\nfont-size: 9em;\n}\n#interface #time #date{\nfont-size: 1.2em;\n}\n#interface #main #greetings{\nfont-size: 2.5em;\n}\n#interface #main #weather #current, #interface #main #weather #forecast{\nfont-size: 0.7em;\n}\n#interface #widgets{\nopacity: 0.89;\n}\n#interface #widgets #linkblocks.medium li a img{\npadding: 0.2em;\nborder-radius: 1em;\n}\n#interface #widgets #linkblocks li.block a img{\nbackground: #e1ffe2;\n}\n",
+  "hide": {
+    "settingsicon": true
+  },
+  "linkstyle": "large",
+  "linknewtab": false,
+  "linksrow": 9,
+  "linksebapfp": {
+    "_id": "linksebapfp",
+    "icon": "https://cdn-icons-png.flaticon.com/128/725/725289.png",
+    "order": 2,
+    "parent": 0,
+    "title": "",
+    "url": "https://facebook.com"
+  },
+  "linkscbkkaf": {
+    "_id": "linkscbkkaf",
+    "icon": "https://cdn-icons-png.flaticon.com/128/324/324123.png",
+    "order": 1,
+    "title": "",
+    "url": "https://gmail.com"
+  },
+  "linksbdhprg": {
+    "_id": "linksbdhprg",
+    "icon": "https://cdn-icons-png.flaticon.com/128/1383/1383260.png",
+    "order": 0,
+    "parent": 0,
+    "title": "Youtube",
+    "url": "https://youtube.com"
+  },
+  "linktabs": {
+    "active": false,
+    "selected": 0,
+    "titles": [
+      ""
+    ]
+  },
+  "clock": {
+    "ampm": true,
+    "analog": false,
+    "face": "none",
+    "seconds": false,
+    "size": 1,
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "collection": "",
+    "every": "hour",
+    "lastCollec": "night",
+    "pausedImage": null,
+    "time": 1724573642885
+  },
+  "weather": {
+    "ccode": "",
+    "city": {
+      "timezone": 21600,
+      "coord": {
+        "lat": 24.3716,
+        "lon": 88.5921
+      },
+      "country": "BD",
+      "id": 1185128,
+      "name": "Rajshahi",
+      "population": 700133,
+      "sunrise": 1722987419,
+      "sunset": 1723034750
+    },
+    "fcHigh": 13,
+    "fcLast": 1699369200,
+    "forecast": "auto",
+    "geolocation": "off",
+    "lastCall": 1699349874,
+    "lastState": {
+      "sunrise": 1699339578,
+      "sunset": 1699374134,
+      "description": "overcast clouds",
+      "feels_like": 5.3,
+      "icon_id": 804,
+      "temp": 8.52,
+      "temp_max": 9.87
+    },
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "align": "left",
+    "on": false,
+    "opacity": 0.1,
+    "text": "As You Sow so you shall ripe.\n\n[x] \"# \", \"## \" or \"### \" to create titles\n[x] \"- \" or \"[ ] \" to add a list or checkbox",
+    "width": 40
+  },
+  "searchbar": {
+    "on": true,
+    "opacity": 0.2,
+    "engine": "google",
+    "newtab": false,
+    "placeholder": "",
+    "request": "",
+    "suggestions": true
+  },
+  "quotes": {
+    "on": false,
+    "author": false,
+    "frequency": "day",
+    "last": 1724523928768,
+    "type": "classic",
+    "userlist": ""
+  },
+  "font": {
+    "size": "11.35",
+    "family": "Montserrat",
+    "system": false,
+    "weight": "400",
+    "weightlist": []
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "time",
+            "."
+          ],
+          [
+            "main",
+            "."
+          ],
+          [
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      },
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quicklinks"
+          ]
+        ],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  }
+}
